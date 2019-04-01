@@ -22,7 +22,7 @@ of the installed `diffusionf` model.
 After installing,
 run the model through its BMI with the `run_bmidiffusionf` program,
 which takes a model configuration file
-(see the [examples](./examples) directory for a sample)
+(see the [example](./example) directory for a sample)
 as a required parameter.
 
     run_bmidiffusionf test.cfg
