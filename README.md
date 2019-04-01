@@ -1,6 +1,7 @@
 # bmi-diffusionf
 
-A BMI for the [diffusionf model](https://github.com/mdpiper/diffusionf).
+A [Basic Model Interface](https://bmi-spec.readthedocs.io/en/latest/) (BMI)
+for the [diffusionf model](https://github.com/mdpiper/diffusionf).
 
 ## Build, install, and run
 
