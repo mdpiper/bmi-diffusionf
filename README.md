@@ -19,6 +19,23 @@ make install
 where **/path/to/diffusionf/install** is the location
 of the installed `diffusionf` model.
 
+The installed files are organized as follows:
+```
+.
+|-- bin
+|   |-- run_bmidiffusionf
+|   `-- run_diffusionf
+|-- include
+|   |-- bmidiffusionf.mod
+|   |-- bmif.mod
+|   `-- diffusion.mod
+`-- lib
+    |-- libbmidiffusionf.so
+    `-- libdiffusionf.so
+```
+Note that the BMI is installed in the same location
+as the `diffusionf` model.
+
 After installing,
 run the model through its BMI with the `run_bmidiffusionf` program,
 which takes a model configuration file
