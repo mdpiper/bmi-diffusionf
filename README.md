@@ -1,14 +1,19 @@
-# bmi-diffusionf
+# bmi-diffusionf-1
 
 A [Basic Model Interface](https://bmi-spec.readthedocs.io/en/latest/) (BMI)
 for the [diffusionf model](https://github.com/mdpiper/diffusionf).
 
-## Build, install, and run
+This implementation builds the BMI specification from its Fortran source.
+See [bmi-diffusionf-2](https://github.com/mdpiper/bmi-diffusionf-2)
+for an alternate implementation.
+
+**Prerequisites:**
+
+1. The `diffusionf` model must be installed.  Directions are given in
+a [README](https://github.com/mdpiper/diffusionf/blob/master/README.md).
 
 To build this BMI,
-it's assumed that the `diffusionf` model has been built and installed.
-
-Change to the root directory of this repository and execute:
+change to the root directory of this repository and execute:
 
 ```bash
 mkdir _build && cd _build
